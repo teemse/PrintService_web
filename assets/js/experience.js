@@ -20,7 +20,7 @@ const exp = [
   },
   {
     title: "Индивидуальный подход",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/loyality.jpg",
     place: "IIT, Bombay",
     time: "(Dec, 19 - Jan, 20)",
     desp: "<li>Мы понимаем, что каждый клиент имеет уникальные потребности. Поэтому мы готовы предложить вам индивидуальные решения, настроенные именно под ваши требования. Мы всегда готовы выслушать ваши предпочтения и оказать поддержку на каждом этапе сотрудничества.</li>",
