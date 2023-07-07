@@ -34,7 +34,7 @@ const exp = [
   },
   {
     title: "Удовлетворенность клиентов",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/client.jpg",
     place: "IIT, Bombay",
     time: "(Dec, 19 - Jan, 20)",
     desp: "<li>Мы гордимся высокой удовлетворенностью наших клиентов. Наша цель - превзойти ваши ожидания и установить долгосрочные партнерские отношения. Мы благодарим наших клиентов за доверие и стремимся стать вашим надежным партнером в обслуживании оргтехники.</li>",
