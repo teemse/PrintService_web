@@ -27,7 +27,7 @@ const exp = [
   },
   {
     title: "Быстрое обслуживание",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/clock.jpg",
     place: "IIT, Bombay",
     time: "(Dec, 19 - Jan, 20)",
     desp: "<li>Время - это деньги, и мы ценим ваше время. Мы гарантируем быстрое выполнение всех работ без ущерба для качества. Наша команда готова оперативно реагировать на ваши запросы и предоставить вам необходимую помощь.</li>",
