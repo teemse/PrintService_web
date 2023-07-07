@@ -13,7 +13,7 @@ const exp = [
   },
   {
     title: "Качество и надежность",
-    cardImage: "assets/images/experience-page/gsoc.png",
+    cardImage: "assets/images/experience-page/toner.jpg",
     place: "Google Summer Of Code",
     time: "(Mar - Aug, 2019)",
     desp: "<li>Мы строго контролируем качество всех предоставляемых услуг и используем только высококачественные расходные материалы. Мы работаем только с проверенными поставщиками, чтобы обеспечить долговечность и отличную печать вашего оборудования.</li>",
