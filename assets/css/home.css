@@ -276,34 +276,32 @@ html[light-mode="dark"] .socialicon {
 
 /*
 --------------------------
-   GITHUB MICROANIMATION
+   FEEDBACK MICROANIMATION
 --------------------------
 */
-html[light-mode="dark"] .github-icon {
-  fill: #ffff;
+.feedback:hover #letter1 {
+  transform: translateX(-150%);
+  animation: write 0.5s forwards;
 }
 
-.github-icon {
-  width: 40px;
-  margin-left: 12px;
-  margin-top: 5px;
-  fill: #000000;
+.feedback:hover #letter2 {
+  transform: translateX(-150%);
+  animation: write 0.7s forwards;
 }
 
-.github:hover #arm {
-  transform-origin: bottom right;
-  animation: moveArm 1s infinite alternate;
+.feedback:hover #letter3 {
+  transform: translateX(-150%);
+  animation: write 1s forwards;
 }
 
-@keyframes moveArm {
+@keyframes write {
   0% {
-    transform: rotate(10deg);
+    transform: translateX(-150%);
   }
   100% {
-    transform: rotate(-10deg);
+    transform: translateY(0);
   }
 }
-
 /*
   --------------------------
      TELEGRAM MICROANIMATION
