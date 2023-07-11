@@ -169,7 +169,7 @@ let footer = $(`
       <circle id="green" cx="25" cy="25" r="8" fill="#97CF26" />
       <circle id="purple" cx="10" cy="25" r="2" fill="#A169F7" />
       <circle id="red" cx="25" cy="10" r="4" fill="#FF6163" />
-      <circle id="cyan" cx="10" cy="10" r="6" fill="#0AF" />
+      <circle id="cyan" cx="11" cy="11" r="6" fill="#0AF" />
     </g>
   </svg>
     </a>
