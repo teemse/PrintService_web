@@ -62,7 +62,7 @@ const projects = [
     title: "Заправка лазерного картриджа Ricoh",
     cardImage: "assets/images/project-page/Ricoh.jpg",
     description:
-      "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
+      "Стоймость заправки картриджей Ricoh начинается от 500р. и завист от конкретной модели.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
     Githublink: "",
