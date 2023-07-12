@@ -1,2 +1,6 @@
 User-agent: *
-Allow: /
+Disallow: /*?*
+Disallow: /*%
+Disallow: /index.php
+Disallow: /*?page=
+Disallow: /*&page=
