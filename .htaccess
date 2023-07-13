@@ -1,0 +1,8 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^printservice36.ru[nc]
+RewriteRule ^(.*)$ http://www.printservice36.ru/$1 [r=301,nc]
+
+//Страница ошибки 404
+ErrorDocument 404 /404.html
