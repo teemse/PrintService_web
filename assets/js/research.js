@@ -4,14 +4,13 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
-    authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+    title: "Уважаемые клиенты",
+    authors: "Мы приняли решение не осуществлять заправку на месте.",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
+      "Мы предлагаем забор картриджей в наш офис в связи с нашим стремлением обеспечить безопасность и защиту здоровья клиентов и окружающей среды. Мы глубоко беспокоимся о вредных веществах, используемых в процессе заправки, и предпочитаем масштабировать эту деятельность в специализированной среде, где мы можем контролировать и обрабатывать химические вещества и отходы более безопасным и экологически устойчивым образом.<p>Ваша безопасность и забота о окружающей среде - наш главный приоритет.</p>",
     researchYr: 2020,
     citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
+    image: "assets/images/research-page/warning.png",
     citation: {
       vancouver:
         "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
@@ -22,11 +21,11 @@ const research = [
   },
 
   {
-    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+    title: "Заправка картриджей",
     authors:
       "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
+      "Цены на заправку картриджей варьируются в зависимости от модели принтера и типа картриджа. Мы предлагаем доступные и гибкие тарифы для всех наших клиентов. Мы используем только высококачественные расходные материалы, чтобы гарантировать отличное качество печати. Наши цены включают в себя заправку, проверку и тестирование картриджей.",
     researchYr: 2020,
     citebox: "popup2",
     image: "assets/images/research-page/crossLingual.png",
@@ -40,11 +39,10 @@ const research = [
   },
 
   {
-    title:
-      "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
+    title: "Ремонт и обслуживание оргтехники",
     authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
+      "Наша команда опытных техников готова предоставить вам профессиональный ремонт техники по разумным ценам. Мы предлагаем прозрачную систему цен, основанную на типе поломки и сложности ремонта. Перед началом работ мы предоставим вам оценку стоимости, чтобы вы всегда знали, чего ожидать.",
     researchYr: 2020,
     citebox: "popup3",
     image: "assets/images/research-page/wordRepresentation.png",
@@ -58,109 +56,44 @@ const research = [
   },
 
   {
-    title:
-      "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-    authors:
-      "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
+    title: "Продажа расходных матералов",
+    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
+      "Мы предлагаем широкий ассортимент качественных расходных материалов по конкурентоспособным ценам. У нас вы найдете картриджи, тонеры, чернила и другие расходные материалы для большинства моделей принтеров и копировальных машин. Все наши продукты проходят тщательный контроль качества, чтобы гарантировать надежность и долговечность.",
     researchYr: 2020,
-    citebox: "popup4",
-    image: "assets/images/research-page/dialogueState.png",
+    citebox: "popup3",
+    image: "assets/images/research-page/wordRepresentation.png",
     citation: {
       vancouver:
-        "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 4",
-    absbox: "absPopup4",
+      "This is currently left empty and this can be considered as a dummy data 3",
+    absbox: "absPopup3",
   },
 
   {
-    title: "Dual Super-Resolution Learning for Semantic Segmentation",
-    authors: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
+    title: "Продажа Б/У оргтехники",
+    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
     conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "Цены на бу технику зависят от модели, бренда и состояния устройства. Мы предлагаем привлекательные цены на качественную бу технику, которая проходит предварительную проверку и тестирование. Вы получаете возможность приобрести технику по более низким ценам без ущерба для производительности и надежности.",
     researchYr: 2020,
-    citebox: "popup5",
-    image: "assets/images/research-page/semanticSegmentation.png",
+    citebox: "popup3",
+    image: "assets/images/research-page/wordRepresentation.png",
     citation: {
       vancouver:
-        "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
+        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 5",
-    absbox: "absPopup5",
-  },
-
-  {
-    title: "Deep Unfolding Network for Image Super-Resolution",
-    authors: "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup6",
-    image: "assets/images/research-page/deepNetwork.png",
-    citation: {
-      vancouver:
-        "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 6",
-    absbox: "absPopup6",
-  },
-
-  {
-    title:
-      "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-    authors: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup7",
-    image: "assets/images/research-page/imageDecomposition.png",
-    citation: {
-      vancouver:
-        "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 7",
-    absbox: "absPopup7",
-  },
-  {
-    title:
-      "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-    authors:
-      "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup8",
-    image: "assets/images/research-page/neuralNetworks.jpg",
-    citation: {
-      vancouver:
-        "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 8",
-    absbox: "absPopup8",
+      "This is currently left empty and this can be considered as a dummy data 3",
+    absbox: "absPopup3",
   },
 ];
 AOS.init();
 const fillData = () => {
   let output = "";
   research.forEach(
-    ({
-      image,
-      title,
-      authors,
-      conferences,
-      researchYr,
-      citebox,
-      citation,
-      absbox,
-      abstract,
-    }) =>
+    ({ image, title, authors, conferences, researchYr }) =>
       (output += `
             <tr data-aos="zoom-in-left"> 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
@@ -170,32 +103,9 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
+                    <a href="#0" class="paperTitle text-center"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
-                    
                     <div class="rConferences"> ${conferences} 
-                        <div class="researchY">${researchYr}</div>
-                    </div>
-                    
-                    <!--CITE BUTTON-->
-                    <div class="d-flex" style="margin-right:5%;">
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                            ABSTRACT
-                        </button>
-                
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
-                        </button>
-                    </div>
-                    <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-                        <div class="card-body">
-                            ${abstract}    
-                        </div>
-                    </div>
-                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-                        <div class="card-body">
-                            ${citation.vancouver}    
-                        </div>
                     </div>
                 </td>
             </tr>`)
