@@ -23,12 +23,12 @@ const research = [
   {
     title: "Заправка картриджей",
     authors:
-      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+      "Цены на заправку картриджей варьируются в зависимости от модели картриджа.",
     conferences:
-      "Цены на заправку картриджей варьируются в зависимости от модели принтера и типа картриджа. Мы предлагаем доступные и гибкие тарифы для всех наших клиентов. Мы используем только высококачественные расходные материалы, чтобы гарантировать отличное качество печати. Наши цены включают в себя заправку, проверку и тестирование картриджей.",
+      "Мы предлагаем доступные и гибкие тарифы для всех наших клиентов. Мы используем только высококачественные расходные материалы, чтобы гарантировать отличное качество печати. Наши цены включают в себя заправку, проверку и тестирование картриджей.",
     researchYr: 2020,
     citebox: "popup2",
-    image: "assets/images/research-page/crossLingual.png",
+    image: "assets/images/research-page/ctrg.jpg",
     citation: {
       vancouver:
         "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
@@ -40,12 +40,13 @@ const research = [
 
   {
     title: "Ремонт и обслуживание оргтехники",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
+    authors:
+      "Цены на ремонт могут различаться в зависимости от сложности поломки.",
     conferences:
       "Наша команда опытных техников готова предоставить вам профессиональный ремонт техники по разумным ценам. Мы предлагаем прозрачную систему цен, основанную на типе поломки и сложности ремонта. Перед началом работ мы предоставим вам оценку стоимости, чтобы вы всегда знали, чего ожидать.",
     researchYr: 2020,
     citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
+    image: "assets/images/research-page/printer.png",
     citation: {
       vancouver:
         "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
@@ -57,12 +58,13 @@ const research = [
 
   {
     title: "Продажа расходных матералов",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
+    authors:
+      "У нас широкий ассортимент расходных материалов по доступным ценам.",
     conferences:
-      "Мы предлагаем широкий ассортимент качественных расходных материалов по конкурентоспособным ценам. У нас вы найдете картриджи, тонеры, чернила и другие расходные материалы для большинства моделей принтеров и копировальных машин. Все наши продукты проходят тщательный контроль качества, чтобы гарантировать надежность и долговечность.",
+      "У нас вы найдете картриджи, тонеры, чернила и другие расходные материалы для большинства моделей принтеров и копировальных машин. Все наши продукты проходят тщательный контроль качества, чтобы гарантировать надежность и долговечность.",
     researchYr: 2020,
     citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
+    image: "assets/images/research-page/toner.png",
     citation: {
       vancouver:
         "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
@@ -74,12 +76,13 @@ const research = [
 
   {
     title: "Продажа Б/У оргтехники",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
+    authors:
+      "Цены на бу технику зависят от модели, бренда и состояния устройства.",
     conferences:
-      "Цены на бу технику зависят от модели, бренда и состояния устройства. Мы предлагаем привлекательные цены на качественную бу технику, которая проходит предварительную проверку и тестирование. Вы получаете возможность приобрести технику по более низким ценам без ущерба для производительности и надежности.",
+      "Мы предлагаем привлекательные цены на качественную бу технику, которая проходит предварительную проверку и тестирование. Вы получаете возможность приобрести технику по более низким ценам без ущерба для производительности и надежности.",
     researchYr: 2020,
     citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
+    image: "assets/images/research-page/printer2.png",
     citation: {
       vancouver:
         "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
