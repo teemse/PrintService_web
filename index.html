@@ -124,6 +124,29 @@
       </div>
     </div>
 
+    <div id="whatsapp-popup" class="popup">
+      <div class="popup-content">
+        <h2>Связаться с нами через WhatsApp</h2>
+        <p>
+          Вы можете связаться с нами через WhatsApp или позвонить по номеру,
+          чтобы получить дополнительную информацию или задать вопросы.
+        </p>
+
+        <p>8 905 659-70-41; 8 908 141-62-96; +7(473) 272-74-94</p>
+        <a
+          href="https://api.whatsapp.com/send?phone=89056597041"
+          target="_blank"
+          rel="noopener noreferrer">
+          <img
+            src="/assets/images/home/whatsapp.svg"
+            alt="WhatsApp Icon"
+            width="30"
+            height="30" />
+          Написать в WhatsApp
+        </a>
+      </div>
+    </div>
+
     <!--Dynamic Nav Bar-->
 
     <!--Particles effect-->
@@ -192,6 +215,7 @@
 
               <a
                 class="socialicon whastapp"
+                id="whatsapp-icon"
                 href=""
                 target="_blank"
                 rel="author">
@@ -313,5 +337,29 @@
       crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="assets/js/particle.js"></script>
+    <script>
+      // Получаем ссылку на иконку WhatsApp и всплывающее окно
+      const whatsappIcon = document.getElementById("whatsapp-icon");
+      const whatsappPopup = document.getElementById("whatsapp-popup");
+      whatsappPopup.style.display = "none";
+      // Добавляем обработчик события нажатия на иконку WhatsApp
+      whatsappIcon.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.body.classList.add("overlay");
+        if (whatsappPopup.style.display === "block") {
+          whatsappPopup.style.display = "none";
+        } else {
+          whatsappPopup.style.display = "block";
+        }
+      });
+      // Добавляем обработчик события клика за пределами всплывающего окна,
+      // чтобы скрыть его при щелчке вне окна
+      window.addEventListener("click", function (event) {
+        if (event.target !== whatsappPopup && event.target !== whatsappIcon) {
+          whatsappPopup.style.display = "none";
+          document.body.classList.remove("overlay");
+        }
+      });
+    </script>
   </body>
 </html>
