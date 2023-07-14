@@ -174,7 +174,7 @@ let footer = $(`
   </svg>
     </a>
 
-    <a class="social-button whastapp" href="" target="_blank" >
+    <a class="social-button whastapp" href="https://api.whatsapp.com/send?phone=89056597041" target="_blank" >
     <!-- svg code for whastapp icon -->
     <svg
     class="whastapp-icon-footer"
